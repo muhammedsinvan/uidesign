@@ -11,8 +11,11 @@ function App() {
       <div className='app_leftContainer'>
       <SideBar />
       </div>
-     <div className='app_rightContainer'>
+     <div className='app_centerContainer'>
       <Dashboard />
+     </div>
+     <div className='app_rightContainer'>
+      
      </div>
      </div>
     </div>

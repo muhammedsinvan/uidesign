@@ -1,0 +1,194 @@
+.dashboard_container{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 100%;
+    box-shadow: 0 4px 8px 0 rgba(110, 108, 108, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.dashboard_title{
+    padding: 3rem 0rem 0rem 0rem;
+}
+
+.dashboard_title text{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.dashboard_slideButton{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dashboard_slideButton-item{
+    border-radius: 20px;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1rem 0rem;
+}
+
+.dashboard_slideButton text{
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+}
+
+.dashboard_slideButton text:hover{
+    background-color: rgb(208, 231, 250);
+    
+}
+
+.dashboard_planBoxs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.dashboard_onePlanBoxs{
+    display: flex;
+    flex-direction: column;
+    width: 25rem;
+    box-shadow: 0 4px 8px 0 rgba(110, 108, 108, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 3rem;
+    padding-left: 4rem;
+}
+
+.dashboard_onePlanBoxs-title{
+    font-size: 27px;
+    font-weight: 800;
+}
+
+.dashboard_onePlanBoxs-price{
+    color: rgb(97, 92, 92);
+    text-decoration: line-through red;
+    margin-top: 0.3rem;
+}
+
+.dashboard_onePlanBoxs-discountPrice{
+    font-size: 25px;
+    margin-top: 0.5rem;
+}
+
+.dashboard_onePlanBoxs-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(231, 231, 146, 0.808);
+    width: fit-content;
+    margin-top: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dashboard_onePlanBoxs-button text{
+   margin-right: 0.5rem;
+}
+
+.dashboard_onePlanBoxs-line{
+    margin-top: 2rem;
+    margin-right: 4rem;
+    margin-bottom: 1rem;
+    border-bottom: 0.2px solid black;
+}
+
+.dashboard_onePlanBoxs-points{
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+    gap: 20px;
+}
+
+.dashboard_onePlanBoxs-explore{
+    display: flex;
+    align-items: center;
+    text-decoration: underline;
+    margin: 2rem;
+}
+
+.dashboard_onePlanBoxs-exploreArrow{
+    color:  rgba(235, 190, 200, 0.808);
+}
+
+.freeplan_container{
+    display: flex;
+    margin-top: 2rem;
+    justify-content: space-between;
+}
+
+.freeplan_box{
+    display: flex;
+    width: 44rem;
+    min-height: 15rem;
+    box-shadow: 0 4px 8px 0 rgba(110, 108, 108, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 2rem;
+    padding-left: 3rem;
+}
+
+.freeplan_box-left{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.freeplan_box-leftBadge{
+    background-color: lightgreen;
+    padding: 0.2rem 0.5rem;
+    border-radius: 2rem;
+    width: fit-content;
+}
+
+.freeplan_box-leftTitle{
+    font-size: 30px;
+    padding-top: 1.5rem;
+    font-weight: 800;
+}
+
+.freeplan_box-leftbutton{
+    display: flex;
+    align-items: center;
+    background-color: lightgreen;
+    width: fit-content;
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+}
+
+.freeplan_box-leftbutton text{
+    margin-right: 1rem;
+}
+
+.freeplan_box-right{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-left: 2.5rem;
+    margin-right: 1rem;
+    justify-content: center;
+}
+
+.freeplan_box-rightPoint{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 1rem;
+}
+
+.freeplan_box-rightPoint text{
+    margin-left: 1rem;
+}
+
+.dashboard_footer{
+    display: flex;
+    justify-content: end;
+    padding-top: 0.6rem;
+    color: blue;
+}
+
+.dashboard_footer text{
+    font-size: 12px;
+}
