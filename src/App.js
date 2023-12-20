@@ -2,6 +2,7 @@ import './App.css';
 import SideBar from './Components/SideBar/SideBar';
 import Header from './Components/Header/Header';
 import Dashboard from './Components/Dashboard/Dashboard';
+import RightBar from './Components/RightBar/RightBar';
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
       <Dashboard />
      </div>
      <div className='app_rightContainer'>
-      
+      <RightBar />
      </div>
      </div>
     </div>
