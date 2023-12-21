@@ -1,8 +1,11 @@
 .rightBar_container{
     display: flex;
     flex-direction: column;
-    height: 100%;
-    justify-content: space-between;
+    position: fixed;
+    right: 0;
+    justify-content: space-around;
+    bottom: 0;
+    top: 0;
 }
 
 .rightBar_container-notification{
@@ -12,18 +15,10 @@
 
 .rightBar_container-notificationIcon{
     background-color: white;
-    padding: 1rem;
+    padding: 0.5rem;
     color: blue;
     border-radius: 5px;
     cursor: pointer;
-}
-
-.rightBar_container-message{
-    margin-left: 4rem;
-    margin-top: 10rem;
-    height:10rem;
-    width: 2rem;
-    background-color: white;
 }
 
 .rightBar_container-add{
@@ -36,6 +31,12 @@
     cursor: pointer;
     background-color: lightblue;
     border-radius: 50%;
-    padding: 2px;
-    margin-bottom: 2rem;
+    padding: 1px;
+    
+}
+
+@media only screen and (max-width: 1100px){
+    .rightBar_container{
+        display: none;
+    }
 }

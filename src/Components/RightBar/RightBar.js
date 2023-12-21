@@ -9,7 +9,6 @@ const RightBar = () => {
         <div className='rightBar_container-notification'>
         <NotificationsIcon  className='rightBar_container-notificationIcon'/>
         </div>
-        <div className='rightBar_container-message' />
 
         <div className='rightBar_container-add'>
             <AddIcon  className='rightBar_container-addIcon'/>

@@ -2,14 +2,17 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 100%;
+    width: 80vw;
     box-shadow: 0 4px 8px 0 rgba(110, 108, 108, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    padding-left: 4rem;
-    padding-right: 4rem;
+    /* padding-right: 4rem;
+    margin-right: 1rem;
+    margin-left: 15.5vw; */
+    margin-left: 2rem;
 }
 
 .dashboard_title{
     padding: 3rem 0rem 0rem 0rem;
+    margin-left: 4rem;
 }
 
 .dashboard_title text{
@@ -20,6 +23,7 @@
 .dashboard_slideButton{
     display: flex;
     justify-content: flex-end;
+    margin-right: 5rem;
 }
 
 .dashboard_slideButton-item{
@@ -43,7 +47,8 @@
 .dashboard_planBoxs{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
+    /* justify-content: space-around; */
     margin-top: 1rem;
     flex-wrap: wrap;
     float: right;
@@ -52,10 +57,12 @@
 .dashboard_onePlanBoxs{
     display: flex;
     flex-direction: column;
+    margin-right: 3rem;
     width: 25rem;
     box-shadow: 0 4px 8px 0 rgba(110, 108, 108, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-top: 3rem;
     padding-left: 4rem;
+    margin-top: 1rem;
 }
 
 .dashboard_onePlanBoxs-title{
@@ -119,16 +126,21 @@
 .freeplan_container{
     display: flex;
     margin-top: 2rem;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    float: right;
+    justify-content: center;
+    align-items: center;
 }
 
 .freeplan_box{
     display: flex;
-    width: 44rem;
+    width: 40rem;
     min-height: 15rem;
     box-shadow: 0 4px 8px 0 rgba(110, 108, 108, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     padding-top: 2rem;
     padding-left: 3rem;
+    padding-right: 1rem;
+    margin-top: 3rem;
 }
 
 .freeplan_box-left{
@@ -191,4 +203,41 @@
 
 .dashboard_footer text{
     font-size: 12px;
+}
+
+
+@media only screen and (max-width: 1100px){
+    .dashboard_container{
+        padding-right: 0rem;
+    margin-right: 0rem;
+    width: 90vw;
+    margin-left: 0vw;
+    }
+
+    .freeplan_box{
+        width: fit-content;
+        margin-top: 3rem;
+    }
+
+    .dashboard_onePlanBoxs{
+        margin-right: 0rem;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px){
+    .freeplan_box{
+        flex-direction: column;
+    }
+    .freeplan_box-right{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .dashboard_slideButton{
+        justify-content: center;
+        margin-right: 0rem;
+        margin-top: 1rem;
+    }
 }
